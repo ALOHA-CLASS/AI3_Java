@@ -15,7 +15,7 @@ public class Ex08_SwitchYield {
 			case 0, 1 -> "*";	
 			default -> {
 				System.out.println("별 2개");
-				// 블록의 실행문이 여러 줄이 경우 yield 필수
+				// 블록의 실행문이 여러 줄인 경우 yield 필수
 				// yield 반환값;
 				yield "**";				
 			}
