@@ -9,7 +9,7 @@ public class BoxEx {
 		// - 구조 : class 클래스명<타입매개변수1, 타입매개변수2> { }
 		// - 예시 : class Box <T> { }
 		// - 생성 : Box<타입> box = new Box<타입>();
-		
+		 
 		Box<String> box1 = new Box<String>();
 		box1.setT("물");
 		String boxName = box1.getT();
